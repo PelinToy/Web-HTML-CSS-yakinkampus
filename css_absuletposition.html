@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absulet Position</title>
+    
+    <style>
+        body{
+            background: blanchedalmond;
+            
+        }
+
+        #absulet_position{
+            border: 5px salmon solid;
+            color: red;
+            position: absolute;
+            top: 65px;
+            left: 50px;
+        }
+        
+    </style>
+
+    <!--absolute; özelliği olan bir eleman en yakın 
+        pozisyon değeri relative olan elemana göre kendini konumlandırır.-->
+    <!--relative; bir öğenin normal belgelik akış içinde 
+        bulunduğu konumdan göreceli olarak kaydırılmasını sağlar. -->
+</head>
+
+<body>
+    <p>Bu benim 6.paragrafım</p>
+    <p>Bu benim 7.paragrafım</p>
+    <p>Bu benim 8.paragrafım</p>
+    <div id="absulet_position"><p>Bu benim 9.paragrafım</p></div>
+    <p>Bu benim 10.paragrafım</p>
+</body>
+
+</html>

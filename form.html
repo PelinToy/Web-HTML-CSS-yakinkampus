@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form etiketleri</title>
+</head>
+
+<body>   
+    <form>
+        <br>
+
+        Kullanıcı adı <input type="text" name="kullanici_adi" 
+        size="50" value="Buraya kullanıcı adınızı giriniz"/>
+        <br><br>
+
+        Favori rakamınız <input type="text" name="text" size="50"
+        maxlength="1"value="Buraya 0-10 arası bir rakam giriniz" />
+        <br><br>     
+        <!--Radiobutton da sadece bir tane seçeneği işaretleyebiliriz-->
+        <!--Checkbox'ta birden fazla seçeneği işaretleyebiliriz.-->
+        <hr> 
+
+        <!--Radio Butonunun tiksonda olsun istersek aşağıdaki gibi 
+            etiketi açmadan önce en başa yazıyoruz seçeneğimizi.-->
+        Kadın <input type="radio" name="cinsiyet" value="Kad"/>
+        Erkek <input type="radio" name="cinsiyet" value="Erk"/>
+        <br>
+        <br>
+
+        <!--Radio Butonunun tiki başta olsun istersek aşağıdaki gibi 
+            etiketi kapadıktan sonra seçeneğimizi yazıyoruz.-->
+        <input type="radio" name="cinsiyet" value="K"/>Kadın
+        <input type="radio" name="cinsiyet" value="E"/>Erkek
+        <hr>
+
+        Yakın kampüs sitesinde takip ettiğim dersler neler?
+        <br><br>
+        <input type="checkbox" name="dersler" value="HtmlCss"/> HTML - CSS 
+        <input type="checkbox" name="dersler" value="JS"/> JavaScript 
+        <input type="checkbox" name="dersler" value="AC"/> AutoCAD 
+        <br>
+        <hr>
+
+        Lütfen uyruğunuzu yandaki listeden seçiniz: 
+        <select name="uyruk">
+            <option value="TC">T.C. vatandaşı</option>
+            <option value="A">Alman vatandaşı</option>
+            <option value="İ">İngiliz vatandaşı</option>
+            <option value="D">Diğer</option>
+        </select>
+        <br>
+        <hr>
+
+        Size nasıl yardımcı olabiliriz?
+        <br>
+        <textarea name="yorum" rows ="5" cols ="33" maxlength="100">Yorumlarınız bizim için önemli</textarea>
+        <!--row = satır column = sütun demek-->
+        <hr>
+
+        Kullanıcı adı <input type="text" name="kullanici_adi" /> 
+        Şifre <input type="password" name="sifre"/>
+        <br>
+        <hr>
+        
+        Özgeçmişinizi buraya ekleyiniz.<p>Dosya yükleme komutu <input type="file" name="dosya1"/></p>
+        Sertifikalarınızı buraya ekleyiniz.<p>Dosya yükleme komutu <input type="file" name="dosya2"/></p>
+    </form>   
+</body>
+</html>

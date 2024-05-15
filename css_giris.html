@@ -1,0 +1,79 @@
+<html>
+    <!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <!--link-rel="stylesheet" type="text/css" href="style.css" diye farklı bir yerde 
+    oluşturduğumuz css dosyasına da link verebiliriz.
+    Her css özelliğini  <head>  içinde <style> etiketi açarak istediğimiz css özelliklerini 
+    ayrı ayrı yazmaktan daha kısa bir yoldur.  -->
+
+    <style type="text/css">           
+        p {
+            font-family: Tahoma;
+            font-weight: bold; 
+            font-style:italic;
+            color:#e987d4;
+            background-color: blueviolet            
+        }
+
+        h2{
+            color:brown;
+            text-align: center;
+        }
+
+        h3 {
+            font-family:'Times New Roman';
+            text-indent:40;
+            line-height:150%;
+            font-size: 25;               
+        }
+
+        h4{
+            color:#e987d4;
+            font-family:Verdana;
+            text-align:center;
+        }
+
+        h5 {
+            font-family: arial;
+            color: #24860b;
+            background-color: rgb(219, 180, 219);
+        }
+
+        body{
+            background-color: beige;
+            background-image: url(image/cherry5.jpg);
+            background-repeat: no-repeat;
+            background-position: 50% 450px; 
+        }
+    </style>     
+    <!--CSS komutlarımızı head kısmının içinde yazabiliriz.
+    <style> bu etiketin içine yazdıklarımız css özellikleri oluyor</stle>-->
+    <!--background-repeat: no-repeat; ile resim tekrar etmesin demiş olduk. -->
+    <!--background-repeat: repeat-x; ile yatay düzlemde resim tekrar etsin demiş oluruz-->
+    <!--background-repeat: repeat-y; ile dikey düzlemde resim tekrar etsin demiş oluruz-->
+</head>
+
+<body>
+    İzlemeye devam edin
+    <p>İzlemeye Devam Edin</p>
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus labore dolores debitis ipsa inventore, 
+    dolore iure minima quas quaerat quis modi maxime autem facilis similique itaque, consequuntur perferendis 
+    numquam rerum unde recusandae beatae atque fugiat?</h3>
+    <h4>Hoş geldiniz.</h4>
+
+    <!--"tex-indent" özelliği ile paragraf girişi yapmak-->
+    <!--line-height" özelliği ile satır yüksekliği ayarlamak-->
+    <!--line-align" özelliği ile  hizalamak -->
+    <!--Style etiketi içinde CSS özelliği eklerken bir satırı silmek istemedik  ama işleme de alsın istemiyorsak 
+    (yorum satırında olduğu gibi) satırın başına // işareti koyabiliriz. O zaman bu satırı  işleme almaz.  -->
+    
+    <h2>Projeme hoş geldiniz</h2>
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    Non quas aliquam ea recusandae ipsam explicabo excepturi, dolorum laboriosam sequi itaque quae! 
+    Non mollitia laborum consequatur.</h5>
+</body>   
+</html>

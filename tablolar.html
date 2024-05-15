@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablolar</title>
+</head>
+<body>
+
+    <!--width komutu ile boyutu piksel olarak veya yüzdesel olarak belirleyebiliriz.
+    width=500  ile piksel olarak belirleyebildiğimiz gibi width=75% diyerek 
+    ekranımızın %75 kadar yer kaplasın da diyebiliyoruz.-->
+
+    <table border="10" width="500" cellpadding=15 cellspacing="20">
+        <tr>
+            <th colspan="4">Avrupa Birliği büyük şehir ve merkezleri</th>
+        </tr>
+
+        <!--colspan özelliği sütun üzerinde kaç tane hücrenin 
+        birleştirileceğini belirtir.-->
+        <!--rowspan özelliği satır üzerinde kaç tane hücrenin 
+        birleştirileceğini belirtir.-->  
+        <!--cellspacing özelliği hücreler arasındaki piksel 
+        cinsinden boşluğu belirtir.-->
+        <!--Cellpadding özelliği hücre kenarı ile hücre içeriği
+        arasındaki piksel cinsinden boşluğu belirtir.-->
+
+        <tr>
+            <th>Sıra</th>
+            <th>Şehir ismi</th>
+            <th>Ülke</th>
+            <th>Nüfus</th>
+        </tr>
+
+        <!--Tablo başlığı için th (table header)etiketi kullarak kalın yazabildiğimiz
+        gibi td ile normal bir satır gibi oluşturup kalın yazması için b etiketi de 
+        kullanılabilir.  <td><b> Sıra </b></td> şeklinde de yazılsa da <th>Sıra</th> 
+        yazılsa da aynı sonucu verir. -->
+    
+        <tr>
+            <td align=center>1</td>
+            <td>Paris</td>
+            <td>Fransa</td>
+            <td>12.291.557</td>
+        </tr>
+        <!-- td etiketi içinde align = center dersek hizala=ortaya demiş
+        oluyoruz.Sayıları ortalamak için <td align = center>1</td> diyebiliriz. 
+        Artık 1 sayısı otaya hizalanmış olarak görünecek.-->
+
+        <!--align parametresi hücre içi yatay hizalama yapar. 
+        valign parametresi hücre içinde düşey hizalama yapar.-->
+        <tr>
+            <td align=right>2</td>
+            <td>Madrid</td>
+            <td>Madrid</td>
+            <td>6.747.068</td>
+        </tr>
+        <!--align =right dersek hizala = sağa demiş oluyoruz. -->
+
+        <tr>
+            <td align=left>3</td>
+            <td>Barselona</td>
+            <td>İspanya</td>
+            <td>5.635.100</td>
+        </tr>
+        <!--align =left dersek hizala = sola demiş oluyoruz.-->
+        <!--border-collapse:collapse; Özelliği hücrelerin sınırlarının ve
+        boş hücre etkilerini ortadan kaldırır.-->
+     
+    </table>
+</body>
+</html>

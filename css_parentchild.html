@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent/Child</title>
+    <style>
+        td > ul{
+            background-color: #45b84e	;
+            font-style:italic;
+        }
+
+        ul{
+            background-color: beige;
+        }
+
+        body{
+            background-color: #bacecd;
+        }
+
+        td{
+            width:120px;
+            height:150px;               
+        }
+    </style>
+</head>
+    
+<body>
+    <ul>Bu liste body altındaki bir liste olduğundan "parent" oluyor.
+        <br>ul ye tanımlayacağımız özellikleri burada gösterir.
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <table cellpadding="3" cellspacing="8" border="6">
+        <tr> parent/child ilişkisi kullanarak td > ul dersek 
+            body etiketinin altındaki ul ile buradakinin farklı olduğunu anlar.
+            <br> Sadece bu tablonun içine tanımlamak istediğimiz liste özelliklerini 
+            bunun altında (çocuğu/child) olarak veririz.              
+            <td>
+                <ul>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                </ul>
+            </td>
+
+            <td>
+                <ul>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                </ul>
+            </td>
+
+            <td>
+                <ul>
+                    <li>10</li>
+                    <li>11</li>
+                    <li>12</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <ul>
+                    <li>13</li>
+                    <li>14</li>
+                    <li>15</li>
+                </ul>
+            </td>
+
+            <td>
+                <ul>
+                    <li>16</li>
+                    <li>17</li>
+                    <li>18</li>
+                </ul>
+            </td>
+
+            <td>
+                <ul>
+                    <li>19</li>
+                    <li>20</li>
+                    <li>21</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
