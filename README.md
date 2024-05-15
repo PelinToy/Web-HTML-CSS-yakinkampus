@@ -5,7 +5,8 @@
  
 ![yakınkampüs](https://github.com/PelinToy/Web-HTML-CSS-yakinkampus/assets/111890867/290adf6d-4e79-4b64-a4ed-8fcadae47dba)
 
-Proje içeriğine ait resimler:
+
+Pictures of the project content:
 
           *css_giris
 
